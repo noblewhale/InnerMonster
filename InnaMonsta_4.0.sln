@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{9B0EEBBE-93CF-05F9-8259-B4FF2449F8BC}") = "InnaMonsta_4.0", "Assembly-CSharp.csproj", "{8AF11E8C-DCC2-88AC-98C9-E9F1A216C71A}"
+EndProject
+Project("{9B0EEBBE-93CF-05F9-8259-B4FF2449F8BC}") = "InnaMonsta_4.0", "Assembly-CSharp-Editor.csproj", "{1D48D949-052C-72CE-10C0-2798D6C17157}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AF11E8C-DCC2-88AC-98C9-E9F1A216C71A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF11E8C-DCC2-88AC-98C9-E9F1A216C71A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF11E8C-DCC2-88AC-98C9-E9F1A216C71A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF11E8C-DCC2-88AC-98C9-E9F1A216C71A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D48D949-052C-72CE-10C0-2798D6C17157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D48D949-052C-72CE-10C0-2798D6C17157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D48D949-052C-72CE-10C0-2798D6C17157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D48D949-052C-72CE-10C0-2798D6C17157}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+							GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+
+EndGlobal

@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: fab88313205b14721aa845dd239122d4
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: ARMLEFT_CONTROL
+    100002: ARMRIGHT_CONTROL
+    100004: ARMS
+    100006: ATTACHMENT
+    100008: BICEP_LEFT
+    100010: BICEP_RIGHT
+    100012: Bone017
+    100014: Bone020
+    100016: Circle001
+    100018: CLAVICLE_CONTROL
+    100020: Dummy001
+    100022: Dummy002
+    100024: Dummy003
+    100026: Dummy004
+    100028: FEMUR_LEFT
+    100030: FEMUR_RIGHT
+    100032: FOOT_LEFT
+    100034: FOOT_RIGHT
+    100036: FOOTLEFT_CONTROL
+    100038: FOOTRIGHT_CONTROL
+    100040: FOREARM_LEFT
+    100042: FOREARM_RIGHT
+    100044: HEAD
+    100046: HEAD 1
+    100048: HEAD_CONTROL
+    100050: HERO
+    100052: IK Chain001
+    100054: IK Chain002
+    100056: IK Chain003
+    100058: IK Chain004
+    100060: IK Chain005
+    100062: //RootNode
+    100064: LEFT_CLAVICLE
+    100066: LEFTFOOT_CONTROL
+    100068: LOWLEG_LEFT
+    100070: LOWLEG_RIGHT
+    100072: NECK_CONTROL
+    100074: NORMAL_ARM
+    100076: PELVIS
+    100078: Point001
+    100080: Point002
+    100082: Point003
+    100084: Point004
+    100086: Point005
+    100088: RIGHT_CLAVICLE
+    100090: RIGHTFOOT_CONTROL
+    100092: ROOT_CONTROL
+    100094: SPINE_01
+    100096: SPINE_02
+    100098: SPINE_03
+    100100: SPINE_04
+    100102: SPINETIP
+    100104: SplineIKNode001
+    100106: TENT
+    100108: TENT001
+    100110: TENT002
+    100112: TENT003
+    100114: TRUE_NECK
+    100116: WRIST_LEFT
+    100118: WRIST_RIGHT
+    400000: ARMLEFT_CONTROL
+    400002: ARMRIGHT_CONTROL
+    400004: ARMS
+    400006: ATTACHMENT
+    400008: BICEP_LEFT
+    400010: BICEP_RIGHT
+    400012: Bone017
+    400014: Bone020
+    400016: Circle001
+    400018: CLAVICLE_CONTROL
+    400020: Dummy001
+    400022: Dummy002
+    400024: Dummy003
+    400026: Dummy004
+    400028: FEMUR_LEFT
+    400030: FEMUR_RIGHT
+    400032: FOOT_LEFT
+    400034: FOOT_RIGHT
+    400036: FOOTLEFT_CONTROL
+    400038: FOOTRIGHT_CONTROL
+    400040: FOREARM_LEFT
+    400042: FOREARM_RIGHT
+    400044: HEAD
+    400046: HEAD 1
+    400048: HEAD_CONTROL
+    400050: HERO
+    400052: IK Chain001
+    400054: IK Chain002
+    400056: IK Chain003
+    400058: IK Chain004
+    400060: IK Chain005
+    400062: //RootNode
+    400064: LEFT_CLAVICLE
+    400066: LEFTFOOT_CONTROL
+    400068: LOWLEG_LEFT
+    400070: LOWLEG_RIGHT
+    400072: NECK_CONTROL
+    400074: NORMAL_ARM
+    400076: PELVIS
+    400078: Point001
+    400080: Point002
+    400082: Point003
+    400084: Point004
+    400086: Point005
+    400088: RIGHT_CLAVICLE
+    400090: RIGHTFOOT_CONTROL
+    400092: ROOT_CONTROL
+    400094: SPINE_01
+    400096: SPINE_02
+    400098: SPINE_03
+    400100: SPINE_04
+    400102: SPINETIP
+    400104: SplineIKNode001
+    400106: TENT
+    400108: TENT001
+    400110: TENT002
+    400112: TENT003
+    400114: TRUE_NECK
+    400116: WRIST_LEFT
+    400118: WRIST_RIGHT
+    2300000: TENT
+    2300002: TENT001
+    2300004: TENT002
+    2300006: TENT003
+    3300000: TENT
+    3300002: TENT001
+    3300004: TENT002
+    3300006: TENT003
+    4300000: HERO
+    4300002: ARMS
+    4300004: HEAD
+    4300006: TENT
+    4300008: NORMAL_ARM
+    4300010: TENT001
+    4300012: TENT002
+    4300014: TENT003
+    9500000: //RootNode
+    13700000: ARMS
+    13700002: HEAD
+    13700004: HERO
+    13700006: NORMAL_ARM
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,14 @@
+C:\Users\Selena\Desktop\GlobalGameJamGame2\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Selena\Desktop\GlobalGameJamGame2\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Selena\Desktop\GlobalGameJamGame2\Temp\bin\Debug\Photon3Unity3D.dll
+C:\Users\Selena\Desktop\GlobalGameJamGame2\Temp\bin\Debug\PlayMaker.dll
+C:\Users\Selena\Desktop\GlobalGameJamGame2\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Selena\Desktop\GlobalGameJamGame2\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Selena\Desktop\GlobalGameJamGame2\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Selena\Desktop\GlobalGameJamGame2\Temp\bin\Debug\nunit.framework.dll
+C:\Users\Selena\Desktop\GlobalGameJamGame2\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Selena\Desktop\GlobalGameJamGame2\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Selena\Desktop\GlobalGameJamGame2\Temp\bin\Debug\Photon3Unity3D.xml
+C:\Users\Selena\Desktop\GlobalGameJamGame2\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\Users\Selena\Desktop\GlobalGameJamGame2\obj\Debug\Assembly-CSharp.dll
+C:\Users\Selena\Desktop\GlobalGameJamGame2\obj\Debug\Assembly-CSharp.pdb

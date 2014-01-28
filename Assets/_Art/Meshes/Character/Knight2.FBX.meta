@@ -1,0 +1,233 @@
+fileFormatVersion: 2
+guid: f3290774257844f8ea51ccc76f25f897
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: ARMLEFT_CONTROL
+    100002: ARMRIGHT_CONTROL
+    100004: ATTACHMENT
+    100006: BICEP_LEFT
+    100008: BICEP_RIGHT
+    100010: Bone017
+    100012: Bone020
+    100014: ButtPlate
+    100016: CHEST
+    100018: Chest
+    100020: Circle001
+    100022: CLAVICLE_CONTROL
+    100024: Dummy001
+    100026: Dummy002
+    100028: Dummy003
+    100030: Dummy004
+    100032: FEMUR_LEFT
+    100034: FEMUR_RIGHT
+    100036: FOOT_LEFT
+    100038: FOOT_RIGHT
+    100040: FOOTLEFT_CONTROL
+    100042: FOOTRIGHT_CONTROL
+    100044: FOREARM_LEFT
+    100046: FOREARM_RIGHT
+    100048: HEAD
+    100050: HEAD_CONTROL
+    100052: helmet
+    100054: IK Chain001
+    100056: IK Chain002
+    100058: IK Chain003
+    100060: IK Chain004
+    100062: IK Chain005
+    100064: //RootNode
+    100066: L_arm
+    100068: L_arm001
+    100070: L_bicep
+    100072: L_bicep001
+    100074: L_knee
+    100076: L_knee001
+    100078: L_Shin
+    100080: L_Shin001
+    100082: L_thigh
+    100084: L_thigh001
+    100086: LEFT_CLAVICLE
+    100088: LEFTFOOT_CONTROL
+    100090: LOWLEG_LEFT
+    100092: LOWLEG_RIGHT
+    100094: NECK_CONTROL
+    100096: Object003
+    100098: Object004
+    100100: PANTS
+    100102: PELVIS
+    100104: Plane010
+    100106: Point001
+    100108: Point002
+    100110: Point003
+    100112: Point004
+    100114: Point005
+    100116: RIGHT_CLAVICLE
+    100118: RIGHTFOOT_CONTROL
+    100120: ROOT_CONTROL
+    100122: SPINE_01
+    100124: SPINE_02
+    100126: SPINE_03
+    100128: SPINE_04
+    100130: SPINETIP
+    100132: SplineIKNode001
+    100134: TRUE_NECK
+    100136: WRIST_LEFT
+    100138: WRIST_RIGHT
+    400000: ARMLEFT_CONTROL
+    400002: ARMRIGHT_CONTROL
+    400004: ATTACHMENT
+    400006: BICEP_LEFT
+    400008: BICEP_RIGHT
+    400010: Bone017
+    400012: Bone020
+    400014: ButtPlate
+    400016: CHEST
+    400018: Chest
+    400020: Circle001
+    400022: CLAVICLE_CONTROL
+    400024: Dummy001
+    400026: Dummy002
+    400028: Dummy003
+    400030: Dummy004
+    400032: FEMUR_LEFT
+    400034: FEMUR_RIGHT
+    400036: FOOT_LEFT
+    400038: FOOT_RIGHT
+    400040: FOOTLEFT_CONTROL
+    400042: FOOTRIGHT_CONTROL
+    400044: FOREARM_LEFT
+    400046: FOREARM_RIGHT
+    400048: HEAD
+    400050: HEAD_CONTROL
+    400052: helmet
+    400054: IK Chain001
+    400056: IK Chain002
+    400058: IK Chain003
+    400060: IK Chain004
+    400062: IK Chain005
+    400064: //RootNode
+    400066: L_arm
+    400068: L_arm001
+    400070: L_bicep
+    400072: L_bicep001
+    400074: L_knee
+    400076: L_knee001
+    400078: L_Shin
+    400080: L_Shin001
+    400082: L_thigh
+    400084: L_thigh001
+    400086: LEFT_CLAVICLE
+    400088: LEFTFOOT_CONTROL
+    400090: LOWLEG_LEFT
+    400092: LOWLEG_RIGHT
+    400094: NECK_CONTROL
+    400096: Object003
+    400098: Object004
+    400100: PANTS
+    400102: PELVIS
+    400104: Plane010
+    400106: Point001
+    400108: Point002
+    400110: Point003
+    400112: Point004
+    400114: Point005
+    400116: RIGHT_CLAVICLE
+    400118: RIGHTFOOT_CONTROL
+    400120: ROOT_CONTROL
+    400122: SPINE_01
+    400124: SPINE_02
+    400126: SPINE_03
+    400128: SPINE_04
+    400130: SPINETIP
+    400132: SplineIKNode001
+    400134: TRUE_NECK
+    400136: WRIST_LEFT
+    400138: WRIST_RIGHT
+    4300000: PANTS
+    4300002: CHEST
+    4300004: Chest
+    4300006: L_bicep
+    4300008: L_arm
+    4300010: L_thigh
+    4300012: helmet
+    4300014: ButtPlate
+    4300016: L_Shin
+    4300018: L_knee
+    4300020: L_bicep001
+    4300022: L_arm001
+    4300024: L_thigh001
+    4300026: L_knee001
+    4300028: L_Shin001
+    4300030: Plane010
+    4300032: Object004
+    9500000: //RootNode
+    13700000: ButtPlate
+    13700002: CHEST
+    13700004: Chest
+    13700006: helmet
+    13700008: L_arm
+    13700010: L_arm001
+    13700012: L_bicep
+    13700014: L_bicep001
+    13700016: L_knee
+    13700018: L_knee001
+    13700020: L_Shin
+    13700022: L_Shin001
+    13700024: L_thigh
+    13700026: L_thigh001
+    13700028: Object004
+    13700030: PANTS
+    13700032: Plane010
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0149999997
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

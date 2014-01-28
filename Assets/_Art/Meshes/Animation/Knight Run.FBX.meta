@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: 832333eb043b640f59b191473f42d1ed
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: ATTACHMENT
+    100002: BICEP_LEFT
+    100004: BICEP_RIGHT
+    100006: Bone017
+    100008: Bone020
+    100010: Circle001
+    100012: CLAVICLE_CONTROL
+    100014: FEMUR_LEFT
+    100016: FEMUR_RIGHT
+    100018: FOOT_LEFT
+    100020: FOOT_RIGHT
+    100022: FOREARM_LEFT
+    100024: FOREARM_RIGHT
+    100026: HEAD
+    100028: //RootNode
+    100030: LEFT_CLAVICLE
+    100032: LOWLEG_LEFT
+    100034: LOWLEG_RIGHT
+    100036: PELVIS
+    100038: RIGHT_CLAVICLE
+    100040: ROOT_CONTROL
+    100042: SPINE_01
+    100044: SPINE_02
+    100046: SPINE_03
+    100048: SPINE_04
+    100050: SPINETIP
+    100052: TRUE_NECK
+    100054: WRIST_LEFT
+    100056: WRIST_RIGHT
+    400000: ATTACHMENT
+    400002: BICEP_LEFT
+    400004: BICEP_RIGHT
+    400006: Bone017
+    400008: Bone020
+    400010: Circle001
+    400012: CLAVICLE_CONTROL
+    400014: FEMUR_LEFT
+    400016: FEMUR_RIGHT
+    400018: FOOT_LEFT
+    400020: FOOT_RIGHT
+    400022: FOREARM_LEFT
+    400024: FOREARM_RIGHT
+    400026: HEAD
+    400028: //RootNode
+    400030: LEFT_CLAVICLE
+    400032: LOWLEG_LEFT
+    400034: LOWLEG_RIGHT
+    400036: PELVIS
+    400038: RIGHT_CLAVICLE
+    400040: ROOT_CONTROL
+    400042: SPINE_01
+    400044: SPINE_02
+    400046: SPINE_03
+    400048: SPINE_04
+    400050: SPINETIP
+    400052: TRUE_NECK
+    400054: WRIST_LEFT
+    400056: WRIST_RIGHT
+    7400000: Run_anim
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run_anim
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/ROOT_CONTROL
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/ATTACHMENT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/LEFT_CLAVICLE
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/LEFT_CLAVICLE/BICEP_LEFT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/LEFT_CLAVICLE/BICEP_LEFT/FOREARM_LEFT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/LEFT_CLAVICLE/BICEP_LEFT/FOREARM_LEFT/WRIST_LEFT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/RIGHT_CLAVICLE
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/RIGHT_CLAVICLE/BICEP_RIGHT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/RIGHT_CLAVICLE/BICEP_RIGHT/FOREARM_RIGHT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/RIGHT_CLAVICLE/BICEP_RIGHT/FOREARM_RIGHT/WRIST_RIGHT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_LEFT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_LEFT/LOWLEG_LEFT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_LEFT/LOWLEG_LEFT/FOOT_LEFT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_LEFT/LOWLEG_LEFT/FOOT_LEFT/Bone017
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_RIGHT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_RIGHT/LOWLEG_RIGHT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_RIGHT/LOWLEG_RIGHT/FOOT_RIGHT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_RIGHT/LOWLEG_RIGHT/FOOT_RIGHT/Bone020
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/TRUE_NECK
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/TRUE_NECK/HEAD
+        weight: 1
+      - path: SPINE_01
+        weight: 1
+      - path: SPINE_01/SPINE_02
+        weight: 1
+      - path: SPINE_01/SPINE_02/SPINE_03
+        weight: 1
+      - path: SPINE_01/SPINE_02/SPINE_03/SPINE_04
+        weight: 1
+      - path: SPINE_01/SPINE_02/SPINE_03/SPINE_04/SPINETIP
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 

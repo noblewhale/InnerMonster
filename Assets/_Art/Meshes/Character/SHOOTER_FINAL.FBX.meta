@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: bdb58e000de6448ffa25652a768e0a0b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: ARMLEFT_CONTROL
+    100002: ARMRIGHT_CONTROL
+    100004: ATTACHMENT
+    100006: BICEP_LEFT
+    100008: BICEP_RIGHT
+    100010: Bone017
+    100012: Bone020
+    100014: Circle001
+    100016: CLAVICLE_CONTROL
+    100018: Dummy001
+    100020: Dummy002
+    100022: Dummy003
+    100024: Dummy004
+    100026: FEMUR_LEFT
+    100028: FEMUR_RIGHT
+    100030: FOOT_LEFT
+    100032: FOOT_RIGHT
+    100034: FOOTLEFT_CONTROL
+    100036: FOOTRIGHT_CONTROL
+    100038: FOREARM_LEFT
+    100040: FOREARM_RIGHT
+    100042: HEAD
+    100044: HEAD 1
+    100046: HEAD_CONTROL
+    100048: HERO
+    100050: IK Chain001
+    100052: IK Chain002
+    100054: IK Chain003
+    100056: IK Chain004
+    100058: IK Chain005
+    100060: LEFT_CLAVICLE
+    100062: LEFTFOOT_CONTROL
+    100064: LOWLEG_LEFT
+    100066: LOWLEG_RIGHT
+    100068: NECK_CONTROL
+    100070: PELVIS
+    100072: Point001
+    100074: Point002
+    100076: Point003
+    100078: Point004
+    100080: Point005
+    100082: RIGHT_CLAVICLE
+    100084: RIGHTFOOT_CONTROL
+    100086: ROOT_CONTROL
+    100088: //RootNode
+    100090: SPINE_01
+    100092: SPINE_02
+    100094: SPINE_03
+    100096: SPINE_04
+    100098: SPINETIP
+    100100: SplineIKNode001
+    100102: TENT001
+    100104: TRUE_NECK
+    100106: WRIST_LEFT
+    100108: WRIST_RIGHT
+    400000: ARMLEFT_CONTROL
+    400002: ARMRIGHT_CONTROL
+    400004: ATTACHMENT
+    400006: BICEP_LEFT
+    400008: BICEP_RIGHT
+    400010: Bone017
+    400012: Bone020
+    400014: Circle001
+    400016: CLAVICLE_CONTROL
+    400018: Dummy001
+    400020: Dummy002
+    400022: Dummy003
+    400024: Dummy004
+    400026: FEMUR_LEFT
+    400028: FEMUR_RIGHT
+    400030: FOOT_LEFT
+    400032: FOOT_RIGHT
+    400034: FOOTLEFT_CONTROL
+    400036: FOOTRIGHT_CONTROL
+    400038: FOREARM_LEFT
+    400040: FOREARM_RIGHT
+    400042: HEAD
+    400044: HEAD 1
+    400046: HEAD_CONTROL
+    400048: HERO
+    400050: IK Chain001
+    400052: IK Chain002
+    400054: IK Chain003
+    400056: IK Chain004
+    400058: IK Chain005
+    400060: LEFT_CLAVICLE
+    400062: LEFTFOOT_CONTROL
+    400064: LOWLEG_LEFT
+    400066: LOWLEG_RIGHT
+    400068: NECK_CONTROL
+    400070: PELVIS
+    400072: Point001
+    400074: Point002
+    400076: Point003
+    400078: Point004
+    400080: Point005
+    400082: RIGHT_CLAVICLE
+    400084: RIGHTFOOT_CONTROL
+    400086: ROOT_CONTROL
+    400088: //RootNode
+    400090: SPINE_01
+    400092: SPINE_02
+    400094: SPINE_03
+    400096: SPINE_04
+    400098: SPINETIP
+    400100: SplineIKNode001
+    400102: TENT001
+    400104: TRUE_NECK
+    400106: WRIST_LEFT
+    400108: WRIST_RIGHT
+    4300000: HERO
+    4300002: HEAD
+    4300004: TENT001
+    9500000: //RootNode
+    13700000: HEAD
+    13700002: HERO
+    13700004: TENT001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

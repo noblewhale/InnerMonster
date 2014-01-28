@@ -1,0 +1,279 @@
+fileFormatVersion: 2
+guid: c3b589d27066e4fe590966daf05fa5cd
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: ButtPlate
+    100002: CHEST
+    100004: Chest
+    100006: helmet
+    100008: //RootNode
+    100010: L_arm
+    100012: L_arm001
+    100014: L_bicep
+    100016: L_bicep001
+    100018: L_knee
+    100020: L_knee001
+    100022: L_Shin
+    100024: L_Shin001
+    100026: L_thigh
+    100028: L_thigh001
+    100030: Object003
+    100032: Object004
+    100034: PANTS
+    100036: Plane010
+    100038: SPINE_01
+    100040: SPINE_02
+    100042: SPINE_03
+    100044: SPINE_04
+    100046: polySurface1
+    100048: transform1
+    100050: transform10
+    100052: transform11
+    100054: transform12
+    100056: transform13
+    100058: transform14
+    100060: transform15
+    100062: transform2
+    100064: transform3
+    100066: transform4
+    100068: transform5
+    100070: transform6
+    100072: transform7
+    100074: transform8
+    100076: transform9
+    400000: ButtPlate
+    400002: CHEST
+    400004: Chest
+    400006: helmet
+    400008: //RootNode
+    400010: L_arm
+    400012: L_arm001
+    400014: L_bicep
+    400016: L_bicep001
+    400018: L_knee
+    400020: L_knee001
+    400022: L_Shin
+    400024: L_Shin001
+    400026: L_thigh
+    400028: L_thigh001
+    400030: Object003
+    400032: Object004
+    400034: PANTS
+    400036: Plane010
+    400038: SPINE_01
+    400040: SPINE_02
+    400042: SPINE_03
+    400044: SPINE_04
+    400046: polySurface1
+    400048: transform1
+    400050: transform10
+    400052: transform11
+    400054: transform12
+    400056: transform13
+    400058: transform14
+    400060: transform15
+    400062: transform2
+    400064: transform3
+    400066: transform4
+    400068: transform5
+    400070: transform6
+    400072: transform7
+    400074: transform8
+    400076: transform9
+    2300000: ButtPlate
+    2300002: CHEST
+    2300004: Chest
+    2300006: helmet
+    2300008: L_arm
+    2300010: L_arm001
+    2300012: L_bicep
+    2300014: L_bicep001
+    2300016: L_knee
+    2300018: L_knee001
+    2300020: L_Shin
+    2300022: L_Shin001
+    2300024: L_thigh
+    2300026: L_thigh001
+    2300028: Object004
+    2300030: PANTS
+    2300032: Plane010
+    2300034: polySurface1
+    2300036: //RootNode
+    3300000: ButtPlate
+    3300002: CHEST
+    3300004: Chest
+    3300006: helmet
+    3300008: L_arm
+    3300010: L_arm001
+    3300012: L_bicep
+    3300014: L_bicep001
+    3300016: L_knee
+    3300018: L_knee001
+    3300020: L_Shin
+    3300022: L_Shin001
+    3300024: L_thigh
+    3300026: L_thigh001
+    3300028: Object004
+    3300030: PANTS
+    3300032: Plane010
+    3300034: polySurface1
+    3300036: //RootNode
+    4300000: PANTS
+    4300002: CHEST
+    4300004: Chest
+    4300006: L_bicep
+    4300008: L_arm
+    4300010: L_thigh
+    4300012: helmet
+    4300014: ButtPlate
+    4300016: L_Shin
+    4300018: L_knee
+    4300020: L_bicep001
+    4300022: L_arm001
+    4300024: L_thigh001
+    4300026: L_knee001
+    4300028: L_Shin001
+    4300030: Plane010
+    4300032: Object004
+    4300034: polySurface1
+    4300036: Knight1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .000150000007
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton:
+    - name: Knight(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ButtPlate
+      position: {x: .00430638343, y: -.130546659, z: .176081777}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 100, y: 100, z: 100}
+      transformModified: 1
+    - name: Chest
+      position: {x: .201205209, y: 1.27470589, z: .193193123}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 112.577499, y: 112.577499, z: 112.577499}
+      transformModified: 1
+    - name: helmet
+      position: {x: .206868902, y: 1.222978, z: .193193123}
+      rotation: {x: -.737277329, y: -1.51006176e-08, z: -1.64794329e-08, w: .675590217}
+      scale: {x: 120.317497, y: 120.31749, z: 120.317497}
+      transformModified: 1
+    - name: L_arm
+      position: {x: -1.04469323, y: .89769274, z: .174659476}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 109.675003, y: 147.749466, z: 160.693771}
+      transformModified: 1
+    - name: L_arm001
+      position: {x: 1.43030679, y: .89769274, z: .174659476}
+      rotation: {x: .707106829, y: 0, z: 0, w: .707106829}
+      scale: {x: -109.675003, y: -147.749466, z: -160.693771}
+      transformModified: 1
+    - name: L_bicep
+      position: {x: -.310728759, y: .88883239, z: .173703119}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 100, y: 100, z: 100}
+      transformModified: 1
+    - name: L_bicep001
+      position: {x: .739271283, y: .88883239, z: .173703119}
+      rotation: {x: .707106829, y: 0, z: 0, w: .707106829}
+      scale: {x: -100, y: -100, z: -100}
+      transformModified: 1
+    - name: L_knee
+      position: {x: .208439663, y: 1.22520471, z: .193193123}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 100, y: 100, z: 100}
+      transformModified: 1
+    - name: L_knee001
+      position: {x: .219903842, y: 1.22520471, z: .193193123}
+      rotation: {x: .707106829, y: 0, z: 0, w: .707106829}
+      scale: {x: -100, y: -100, z: -100}
+      transformModified: 1
+    - name: L_Shin
+      position: {x: .208439663, y: 1.22520471, z: .193193123}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 100, y: 100, z: 100}
+      transformModified: 1
+    - name: L_Shin001
+      position: {x: .219903842, y: 1.22520471, z: .193193123}
+      rotation: {x: .707106829, y: 0, z: 0, w: .707106829}
+      scale: {x: -100, y: -100, z: -100}
+      transformModified: 1
+    - name: L_thigh
+      position: {x: .208439663, y: 1.22520471, z: .193193123}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 100, y: 100, z: 100}
+      transformModified: 1
+    - name: L_thigh001
+      position: {x: .219903842, y: 1.22520471, z: .193193123}
+      rotation: {x: .707106829, y: 0, z: 0, w: .707106829}
+      scale: {x: -100, y: -100, z: -100}
+      transformModified: 1
+    - name: Object003
+      position: {x: -.304969281, y: .958191872, z: .173703119}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 100, y: 100, z: 100}
+      transformModified: 1
+    - name: Object004
+      position: {x: 1.71254921, y: .763591945, z: .175071031}
+      rotation: {x: -.270598054, y: .653281569, z: -.270597935, w: .65328145}
+      scale: {x: 99.9999924, y: 99.9999847, z: 100}
+      transformModified: 1
+    - name: Plane010
+      position: {x: 1.71254921, y: .763591945, z: .175071031}
+      rotation: {x: -.270597994, y: .653281569, z: -.270597994, w: .65328145}
+      scale: {x: 99.9999924, y: 100, z: 100}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
