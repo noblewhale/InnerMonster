@@ -1,0 +1,12 @@
+Temp
+test_Data
+tesxt_Data
+Library
+Obj
+*.csproj
+*.pidb
+*.unityproj
+*.sln
+*.userprefs
+*.suo
+Thumbs.db
