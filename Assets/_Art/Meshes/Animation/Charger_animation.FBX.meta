@@ -116,7 +116,7 @@ ModelImporter:
     400108: WRIST_LEFT
     400110: WRIST_RIGHT
     4300000: Monster1
-    7400000: Take 001
+    7400000: charger_01
     9500000: //RootNode
     13700000: Monster1
   materials:
@@ -127,13 +127,151 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     optimizeGameObjects: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: .5
     animationPositionError: .5
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: charger_01
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/ARMLEFT_CONTROL
+        weight: 1
+      - path: Circle001/ARMLEFT_CONTROL/Circle002
+        weight: 1
+      - path: Circle001/ARMLEFT_CONTROL/IK Chain003
+        weight: 1
+      - path: Circle001/ARMRIGHT_CONTROL
+        weight: 1
+      - path: Circle001/ARMRIGHT_CONTROL/Circle003
+        weight: 1
+      - path: Circle001/ARMRIGHT_CONTROL/IK Chain002
+        weight: 1
+      - path: Circle001/Dummy001
+        weight: 1
+      - path: Circle001/Dummy002
+        weight: 1
+      - path: Circle001/Dummy003
+        weight: 1
+      - path: Circle001/Dummy004
+        weight: 1
+      - path: Circle001/FOOTLEFT_CONTROL
+        weight: 1
+      - path: Circle001/FOOTLEFT_CONTROL/IK Chain005
+        weight: 1
+      - path: Circle001/FOOTRIGHT_CONTROL
+        weight: 1
+      - path: Circle001/FOOTRIGHT_CONTROL/IK Chain004
+        weight: 1
+      - path: Circle001/ROOT_CONTROL
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/ATTACHMENT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/LEFT_CLAVICLE
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/LEFT_CLAVICLE/BICEP_LEFT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/LEFT_CLAVICLE/BICEP_LEFT/FOREARM_LEFT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/LEFT_CLAVICLE/BICEP_LEFT/FOREARM_LEFT/WRIST_LEFT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/RIGHT_CLAVICLE
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/RIGHT_CLAVICLE/BICEP_RIGHT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/RIGHT_CLAVICLE/BICEP_RIGHT/FOREARM_RIGHT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/RIGHT_CLAVICLE/BICEP_RIGHT/FOREARM_RIGHT/WRIST_RIGHT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/NECK_CONTROL
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/NECK_CONTROL/HEAD_CONTROL
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_LEFT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_LEFT/LOWLEG_LEFT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_LEFT/LOWLEG_LEFT/FOOT_LEFT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_LEFT/LOWLEG_LEFT/FOOT_LEFT/Bone017
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_RIGHT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_RIGHT/LOWLEG_RIGHT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_RIGHT/LOWLEG_RIGHT/FOOT_RIGHT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_RIGHT/LOWLEG_RIGHT/FOOT_RIGHT/Bone020
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/Point001
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/Point002
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/Point002/Point003
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/Point002/Point003/Point004
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/Point002/Point003/Point004/Point005
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/TRUE_NECK
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/TRUE_NECK/HEAD
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: LEFTFOOT_CONTROL
+        weight: 1
+      - path: Monster1
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: RIGHTFOOT_CONTROL
+        weight: 1
+      - path: SPINE_01
+        weight: 1
+      - path: SPINE_01/SPINE_02
+        weight: 1
+      - path: SPINE_01/SPINE_02/SPINE_03
+        weight: 1
+      - path: SPINE_01/SPINE_02/SPINE_03/SPINE_04
+        weight: 1
+      - path: SPINE_01/SPINE_02/SPINE_03/SPINE_04/SPINETIP
+        weight: 1
+      - path: SplineIKNode001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []

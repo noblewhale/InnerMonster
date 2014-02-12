@@ -77,7 +77,91 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 13
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/ROOT_CONTROL
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/ATTACHMENT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/LEFT_CLAVICLE
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/LEFT_CLAVICLE/BICEP_LEFT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/LEFT_CLAVICLE/BICEP_LEFT/FOREARM_LEFT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/LEFT_CLAVICLE/BICEP_LEFT/FOREARM_LEFT/WRIST_LEFT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/RIGHT_CLAVICLE
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/RIGHT_CLAVICLE/BICEP_RIGHT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/RIGHT_CLAVICLE/BICEP_RIGHT/FOREARM_RIGHT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/CLAVICLE_CONTROL/RIGHT_CLAVICLE/BICEP_RIGHT/FOREARM_RIGHT/WRIST_RIGHT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_LEFT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_LEFT/LOWLEG_LEFT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_LEFT/LOWLEG_LEFT/FOOT_LEFT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_LEFT/LOWLEG_LEFT/FOOT_LEFT/Bone017
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_RIGHT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_RIGHT/LOWLEG_RIGHT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_RIGHT/LOWLEG_RIGHT/FOOT_RIGHT
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/PELVIS/FEMUR_RIGHT/LOWLEG_RIGHT/FOOT_RIGHT/Bone020
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/TRUE_NECK
+        weight: 1
+      - path: Circle001/ROOT_CONTROL/TRUE_NECK/HEAD
+        weight: 1
+      - path: SPINE_01
+        weight: 1
+      - path: SPINE_01/SPINE_02
+        weight: 1
+      - path: SPINE_01/SPINE_02/SPINE_03
+        weight: 1
+      - path: SPINE_01/SPINE_02/SPINE_03/SPINE_04
+        weight: 1
+      - path: SPINE_01/SPINE_02/SPINE_03/SPINE_04/SPINETIP
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
