@@ -40,6 +40,10 @@ public class playerController : MonoBehaviour
 	float basicAttackSphereRadius;
 	
 	public float basicAttackDamage;
+    public float basicAttackZeroTime;
+    public float basicAttackCooldown;
+    public bool isBasicAttacking;
+
 	public float surroundingAttackDamage;
 	public float chargedAttackDamage;
 	
@@ -71,7 +75,11 @@ public class playerController : MonoBehaviour
 	public int killCount = 0;
 
     public GameObject newsPaper;
-	
+
+    public bool canAttack;
+
+    Vector3 oldPosition;
+    public float playerVelocityMagnitude;
 	
 	void Awake()
 	{
@@ -80,8 +88,18 @@ public class playerController : MonoBehaviour
 		//motor.targetVelocity = 10.0f;
 	}
 	// Use this for initialization
+
+    void whatsVelocityMagnitude()
+    {
+        Debug.Log("INVOKES");
+        playerVelocityMagnitude = Vector3.Magnitude(this.transform.position - oldPosition);
+        oldPosition = this.transform.position;
+    }
+
 	void Start () 
 	{
+        oldPosition = this.transform.position;
+        InvokeRepeating("whatsVelocityMagnitude", 1, .2f);
 		surroundingAttackSphereHeight = surroundingAttackSphere.transform.position.y;
 		startingEnergyRate = energyRate;
 		//hinge = this.gameObject.GetComponent<HingeJoint>();
@@ -116,7 +134,11 @@ public class playerController : MonoBehaviour
 				}
 				else
 				{
+                    isBasicAttacking = true;
+                    basicAttackZeroTime = Time.time;
 					hitColliders[i].gameObject.GetComponent<S_enemyLevel>().enemyHealth -= basicAttackDamage;
+                    canAttack = false;
+                    
 				}
 			}
 			i++;
@@ -147,6 +169,12 @@ public class playerController : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
+        Debug.Log("vel " + playerVelocityMagnitude);
+        if (Time.time - basicAttackZeroTime > basicAttackCooldown)
+        {
+            canAttack = true;
+            isBasicAttacking = false;
+        }
 		//Debug.Log("hor " + Input.GetAxisRaw("Horizontal"));
 		//Debug.Log("vert " + Input.GetAxisRaw("Vertical"));
 		//Debug.Log ("axis " + Input.GetAxis("Horizontal"));
@@ -194,9 +222,11 @@ public class playerController : MonoBehaviour
 		}
 		if (Input.GetButtonUp("BasicAttack"))
 		{
-			canMove = true;
-			swingSword();
-			swingSwordZeroTime = 9999999999999;
+            Debug.Log("holla");
+            canMove = true;
+            swingSword();
+            swingSwordZeroTime = 9999999999999;
+
 		}
 		
 		Vector3 angleVector = Vector3.Normalize(new Vector3(Input.GetAxis("ArrowHorizontal"), 0, Input.GetAxis("ArrowVertical")));

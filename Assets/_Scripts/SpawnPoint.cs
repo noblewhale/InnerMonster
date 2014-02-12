@@ -20,7 +20,7 @@ public class SpawnPoint : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
     {
-        Debug.Log("initial " + initialSpawnTime);
+        //Debug.Log("initial " + initialSpawnTime);
         if (Time.time - lastSpawnZeroTime > initialSpawnTime)
         {
             GameObject.Instantiate(spawnPrefab, this.gameObject.transform.position, Quaternion.identity);
