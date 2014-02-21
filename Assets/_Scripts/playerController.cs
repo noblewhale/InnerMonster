@@ -80,7 +80,9 @@ public class playerController : MonoBehaviour
 
     Vector3 oldPosition;
     public float playerVelocityMagnitude;
-	
+
+    public Animator knightAnimator;
+
 	void Awake()
 	{
 		//        hinge = GetComponent<HingeJoint>();
@@ -92,11 +94,15 @@ public class playerController : MonoBehaviour
     void whatsVelocityMagnitude()
     {
         Debug.Log("INVOKES");
-        playerVelocityMagnitude = Vector3.Magnitude(this.transform.position - oldPosition);
+        if (Mathf.Abs(this.transform.position.magnitude - oldPosition.magnitude) > .1f)
+        {
+            playerVelocityMagnitude = Vector3.Magnitude(this.transform.position - oldPosition);
+            knightAnimator.SetFloat("speed", playerVelocityMagnitude);
+        }
         oldPosition = this.transform.position;
     }
 
-	void Start () 
+	void Start ()
 	{
         oldPosition = this.transform.position;
         InvokeRepeating("whatsVelocityMagnitude", 1, .2f);
@@ -107,7 +113,6 @@ public class playerController : MonoBehaviour
 		startPosition = transform.position;
 		basicAttackSphereRadius = basicAttackSphere.GetComponent<SphereCollider>().radius * surroundingAttackSphere.transform.position.x;
 		surroundingAttackSphereRadius = surroundingAttackSphere.GetComponent<SphereCollider>().radius * surroundingAttackSphere.transform.position.x;
-		
 	}
 	
 	void swingSword()
@@ -134,7 +139,8 @@ public class playerController : MonoBehaviour
 				}
 				else
 				{
-                    isBasicAttacking = true;
+                    knightAnimator.SetBool("isBasicAttacking", true);
+                    //isBasicAttacking = true;
                     basicAttackZeroTime = Time.time;
 					hitColliders[i].gameObject.GetComponent<S_enemyLevel>().enemyHealth -= basicAttackDamage;
                     canAttack = false;
@@ -173,7 +179,8 @@ public class playerController : MonoBehaviour
         if (Time.time - basicAttackZeroTime > basicAttackCooldown)
         {
             canAttack = true;
-            isBasicAttacking = false;
+            knightAnimator.SetBool("isBasicAttacking", false);
+            //isBasicAttacking = false;
         }
 		//Debug.Log("hor " + Input.GetAxisRaw("Horizontal"));
 		//Debug.Log("vert " + Input.GetAxisRaw("Vertical"));
@@ -226,7 +233,6 @@ public class playerController : MonoBehaviour
             canMove = true;
             swingSword();
             swingSwordZeroTime = 9999999999999;
-
 		}
 		
 		Vector3 angleVector = Vector3.Normalize(new Vector3(Input.GetAxis("ArrowHorizontal"), 0, Input.GetAxis("ArrowVertical")));
